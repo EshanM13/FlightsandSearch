@@ -14,7 +14,8 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   Airplane.init({
-    model_number: DataTypes.INTEGER
+    model_number: DataTypes.INTEGER,
+    unique: true
   }, {
     sequelize,
     modelName: 'Airplane',

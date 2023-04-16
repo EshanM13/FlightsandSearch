@@ -25,4 +25,6 @@ class cityrepo {
     }
 }
 
-module.exports = City-Repository;
+module.exports = {
+    cityrepo
+};
